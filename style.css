@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+SC&family=Orbitron&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Orbitron", sans-serif;
+}
+
+.container {
+  padding: 0 100px;
+  position: relative;
+}
+
+/* ---------- NAVBAR ------------ */
+
+.navbar-container {
+  height: 20vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+}
+
+.list-item {
+  font-size: 22px;
+  font-weight: 700;
+  margin-right: 40px;
+}
+
+.list .list-item:first-child {
+  font-weight: 700;
+  font-size: 26px;
+  border-bottom: 4px solid #0d0d0d;
+  padding-bottom: 2px;
+}
+
+.button-group {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.nav-button {
+  font-size: 24px;
+  padding: 0 32px;
+  margin-left: 20px;
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+  border: 3px solid #0d0d0d;
+  border-radius: 15px;
+}
+
+svg[height="35"] {
+  margin-top: 8px;
+}
+
+/* ---------- GLOBE ------------ */
+
+.globe {
+  position: absolute;
+  top: 125px;
+  right: 45%;
+}
+
+[alt="globe-pattern"] {
+  height: 50px;
+}
+
+/* ---------- STAR ------------ */
+
+.star {
+  position: absolute;
+  top: 170px;
+  right: 110px;
+}
+
+[alt="start-pattern"] {
+  height: 40px;
+}
+
+/* ---------- HERO IMAGE ------------ */
+
+[alt="person-hero-iamge"] {
+  width: 430px;
+  height: 510px;
+  position: absolute;
+  top: 145px;
+  left: 100px;
+}
+
+/* ---------- SQUARE PATTERN ------------ */
+
+[alt="square-pattern"] {
+  height: 300px;
+  position: absolute;
+  left: 280px;
+  top: 400px;
+}
+
+/* ---------- HERO RIGHT SECTION------------ */
+
+.hero-container-right {
+  position: absolute;
+  top: 210px;
+  left: 40%;
+  height: 440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-heading {
+  font-size: 56px;
+}
+
+.hero-description {
+  font-size: 14px;
+  width: 55%;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.contact-heading {
+  text-align: center;
+}
+
+.button-email {
+  font-size: 20px;
+  padding: 5px 20px;
+  color: #0d0d0d;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+.button-join {
+  font-size: 20px;
+  padding: 5px 20px;
+  color: #ffffff;
+  border-radius: 8px;
+  background-color: #0d0d0d;
+}
+
+.contact-heading {
+  text-align: center;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.icons img {
+  margin-right: 20px;
+  height: 30px;
+}
