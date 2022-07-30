@@ -1,4 +1,4 @@
-# Street-Style-Landing-Page
+# Street Style Landing-Page
 
 ## [Live Site](https://street-style-webpage.netlify.app)
 
@@ -10,7 +10,7 @@ This is a code repository for the Street Style Landing Page.
 
 ## Time taken to finish this project
 
-It took 5 hours to finish it.
+It took me about 6 hours to complete this project.
 
 ## What I learned from this Project?
 
